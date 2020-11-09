@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+body{
+    margin: 0px 0px;
+}
+.container{
+    position: relative;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+}
+.head{
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    height: 41px;
+    width: 167px;
+    background-color: #099269e8;
+}
+.heading{
+    position: absolute;
+    top: 12px;
+    left: 21px;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.exiticon{
+    position: absolute;
+    top: 14px;
+    left: 143px;
+    background-image: url(images/exiticon.png);
+    background-size: cover;
+    height:32px;
+    width: 32px;
+}
+.line{
+    position: absolute;
+    top: 46px;
+    color: black;
+    width: 153px;
+    left: 21px;
+}
+.timeicon{
+    position: absolute;
+    top: 64px;
+    left: 23px;
+    background-image: url(images/timeicon.png);
+    background-size: cover;
+    height:30px;
+    width: 30px;
+}
+.timeicon:hover{
+/* background-image: url(images/membericon.png); */
+opacity: 0.5;
+}
+
+.membericon{
+    position: absolute;
+    top: 63px;
+    left: 83px;
+    background-image: url(images/membericon.png);
+    background-size: cover;
+    height:30px;
+    width: 30px;
+}
+.membericon:hover{
+    opacity: 0.5;
+}
+
+.minutesicon{
+    position: absolute;
+    top: 64px;
+    left: 139px;
+    background-image: url(images/minutesicon.png);
+    background-size: cover;
+    height:30px;
+    width: 30px;
+}
+.minutesicon:hover{
+    opacity: 0.5;
+}
+.enter{
+    position:absolute;
+    top: 102px;
+    left:132px;
+    font-family: 'Source Code Pro', monospace;
+    color:#757575
+}
+
+.tickicon{
+    position: absolute;
+    top: 151px;
+    left: 107px;
+    background-image: url(images/tickicon.png);
+    background-size: cover;
+    height:30px;
+    width: 30px;
+
+}
+.tickicon:hover{
+    opacity: 0.5;
+}
+.stopicon{
+    position: absolute;
+    top: 151px;
+    left: 146px;
+    background-image: url(images/stopicon.png);
+    background-size: cover;
+    height:30px;
+    width: 30px;
+
+}
+.stopicon:hover{
+    opacity: 0.5;
+}
+.inputvalue{
+    position: absolute;
+    top:125px;
+    left: 75px;
+
+}
+.hourglassicon{
+    position: absolute;
+    top: 151px;
+    left: 20px;
+    background-image: url(images/hourglassicon.png);
+    background-size: cover;
+    height:30px;
+    width: 30px;
+    visibility: hidden;
+}
