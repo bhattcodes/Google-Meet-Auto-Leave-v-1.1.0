@@ -1,5 +1,7 @@
 # Google-Meet-Auto-Leave
-Google Meet Auto Leave : Auto Leave google meetings
+Google Meet Auto Leave : 
+Auto Leave google meetings
+Chrome Extention.
 
 "AUTOMATE THE ONLINE CLASSES AND CHILL" 
 
