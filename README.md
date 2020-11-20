@@ -1,4 +1,4 @@
-# google-meet-auto-leave-v-1.1.0
+# Google-Meet-Auto-Leave
 Google Meet Auto Leave : Auto Leave google meetings
 
 "AUTOMATE THE ONLINE CLASSES AND CHILL" 
@@ -19,7 +19,8 @@ Then Click on Extension
 
 (anytime to cancel the timer/background process hit Stop Icon).
 
-Like my work,
-Add your valuable Reviews.
+# AUTHOR:
+Aman Bhatt [ https://github.com/bhattcodes ]
 
-made by: abx
+# LICENSE:
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE] file for details
