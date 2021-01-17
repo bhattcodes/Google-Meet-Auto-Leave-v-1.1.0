@@ -1,5 +1,4 @@
 # Google-Meet-Auto-Leave
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 Google Meet Auto Leave : 
 Auto Leave google meetings
 Chrome Extention.
@@ -25,5 +24,5 @@ Then Click on Extension
 # AUTHOR:
 Aman Bhatt [ https://github.com/bhattcodes ]
 
-# LICENSE:
+# LICENSE: [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 This project is licensed under the MIT License - see the [LICENSE] file for details
