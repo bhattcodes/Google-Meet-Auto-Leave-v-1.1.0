@@ -24,5 +24,5 @@ Then Click on Extension
 # AUTHOR:
 Aman Bhatt [ https://github.com/bhattcodes ]
 
-# LICENSE: [![MIT Licence]
-This project is licensed under the (https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) - see the [LICENSE] file for details
+# LICENSE: 
+This project is licensed under the [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) - see the [LICENSE] file for details
