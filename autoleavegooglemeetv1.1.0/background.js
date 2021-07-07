@@ -63,7 +63,7 @@ function timefunction() {
 function membersfunction() {
     // console.log("member fxn", obj.value);
     console.log("checking members");
-    if (document.querySelector(".gV3Svc>span").nextElementSibling.innerText < obj.value) {
+    if (document.querySelector(".uGOf1d").innerText < obj.value) {
         console.log("STOP THE MEET");
         try {
 	    window.document.querySelector('[aria-label="Leave call"]').click();
