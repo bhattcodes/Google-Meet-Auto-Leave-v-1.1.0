@@ -52,7 +52,7 @@ function timefunction() {
     if (time == obj.value) {
         console.log("STOP THE MEET");
         try {
-            window.document.querySelector(".FbBiwc").click();
+	    window.document.querySelector('[aria-label="Leave call"]').click();
         } catch {
             console.log("ERROR");
         }
@@ -66,7 +66,7 @@ function membersfunction() {
     if (document.querySelector(".gV3Svc>span").nextElementSibling.innerText < obj.value) {
         console.log("STOP THE MEET");
         try {
-            window.document.querySelector(".FbBiwc").click();
+	    window.document.querySelector('[aria-label="Leave call"]').click();
         } catch {
             console.log("ERROR");
         }
@@ -90,7 +90,7 @@ function minutesfunction() {
     else {
         console.log("STOP THE MEET");
         try {
-            window.document.querySelector(".FbBiwc").click();
+	    window.document.querySelector('[aria-label="Leave call"]').click();
         } catch {
             console.log("ERROR");
         }
