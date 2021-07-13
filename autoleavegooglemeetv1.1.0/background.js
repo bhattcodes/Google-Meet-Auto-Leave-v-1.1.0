@@ -40,6 +40,15 @@ chrome.runtime.onMessage.addListener(
     }
 );
 
+function endCall() {
+    console.log("STOP THE MEET");
+    try {
+	window.document.querySelector("button.QQrMi").click();
+    } catch {
+        console.log("ERROR");
+    }
+}
+
 function timefunction() {
     // console.log("time fxn",obj.value);
     const date = new Date();
@@ -50,12 +59,7 @@ function timefunction() {
     let time = hours + ":" + minutes;
     // console.log(time);
     if (time == obj.value) {
-        console.log("STOP THE MEET");
-        try {
-            window.document.querySelector(".FbBiwc").click();
-        } catch {
-            console.log("ERROR");
-        }
+	endCall();
     } else {
         t = setTimeout(timefunction, 60000);
     }
@@ -63,13 +67,8 @@ function timefunction() {
 function membersfunction() {
     // console.log("member fxn", obj.value);
     console.log("checking members");
-    if (document.querySelector(".gV3Svc>span").nextElementSibling.innerText < obj.value) {
-        console.log("STOP THE MEET");
-        try {
-            window.document.querySelector(".FbBiwc").click();
-        } catch {
-            console.log("ERROR");
-        }
+    if (window.document.querySelector(".uGOf1d").innerText < obj.value) {
+	endCall();
     }
     else {
         t = setTimeout(membersfunction, 5000);
@@ -85,15 +84,9 @@ function minutesfunction() {
     }
     if (minute >= 0) {
         t = setTimeout(minutesfunction, 1000);
-
     }
     else {
-        console.log("STOP THE MEET");
-        try {
-            window.document.querySelector(".FbBiwc").click();
-        } catch {
-            console.log("ERROR");
-        }
+	endCall();
     }
 
 }
