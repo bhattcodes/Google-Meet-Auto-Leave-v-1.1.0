@@ -52,7 +52,7 @@ function timefunction() {
     if (time == obj.value) {
         console.log("STOP THE MEET");
         try {
-            window.document.querySelector(".FbBiwc").click();
+            window.document.querySelector(".NKaD6").click();
         } catch {
             console.log("ERROR");
         }
@@ -63,10 +63,10 @@ function timefunction() {
 function membersfunction() {
     // console.log("member fxn", obj.value);
     console.log("checking members");
-    if (document.querySelector(".gV3Svc>span").nextElementSibling.innerText < obj.value) {
+    if (window.document.querySelector('.BN1Lfc').innerText < obj.value) {
         console.log("STOP THE MEET");
         try {
-            window.document.querySelector(".FbBiwc").click();
+            window.document.querySelector(".NKaD6").click();
         } catch {
             console.log("ERROR");
         }
@@ -90,7 +90,7 @@ function minutesfunction() {
     else {
         console.log("STOP THE MEET");
         try {
-            window.document.querySelector(".FbBiwc").click();
+            window.document.querySelector(".NKaD6").click();
         } catch {
             console.log("ERROR");
         }
